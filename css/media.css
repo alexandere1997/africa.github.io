@@ -41,3 +41,17 @@
     	font-size: 3rem;
     }
 }
+@media (max-width: 575px) {
+    .table .price-tags .price-tag{
+        width: 250px;
+    }
+    .call-to-action .wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .call-to-action .wrap h4 {
+        margin: 0;
+    }
+}
